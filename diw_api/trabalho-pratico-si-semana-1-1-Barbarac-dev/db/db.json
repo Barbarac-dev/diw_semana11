@@ -1,0 +1,99 @@
+{
+  "usuarios": [
+    {
+      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    }
+  ],
+  "destinos": [
+    {
+      "id": 1,
+      "titulo": "Capadócia",
+      "descricao": "Formações rochosas únicas e passeios de balão na Turquia.",
+      "imagem": "assets/imgs_diw/capado.jpg",
+      "continente": "Ásia",
+      "pais": "Turquia",
+      "categoria": "Aventura",
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "titulo": "Amazônia",
+      "descricao": "Ecoturismo, floresta tropical e cultura ribeirinha.",
+      "imagem": "assets/imgs_diw/amazon rainforest.jpg",
+      "continente": "América do Sul",
+      "pais": "Brasil",
+      "categoria": "Ecoturismo",
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "titulo": "Santorini",
+      "descricao": "Ilha grega romântica com arquitetura branca e azul.",
+      "imagem": "assets/imgs_diw/santorini.jpg",
+      "continente": "Europa",
+      "pais": "Grécia",
+      "categoria": "Romântico",
+      "destaque": false
+    }
+  ],
+  "hospedagens": [
+    {
+      "id": 1,
+      "destinoId": 1,
+      "nome": "Caverna Hotel",
+      "tipo": "Hotel Boutique",
+      "precoPorNoite": 120,
+      "avaliacao": 4.8
+    },
+    {
+      "id": 2,
+      "destinoId": 2,
+      "nome": "Lodge Amazônico",
+      "tipo": "Eco Lodge",
+      "precoPorNoite": 90,
+      "avaliacao": 4.5
+    },
+    {
+      "id": 3,
+      "destinoId": 3,
+      "nome": "Santorini View",
+      "tipo": "Resort",
+      "precoPorNoite": 200,
+      "avaliacao": 4.9
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": 1,
+      "destinoId": 1,
+      "usuario": "Ana",
+      "comentario": "Experiência inesquecível nos balões da Capadócia!",
+      "nota": 5
+    },
+    {
+      "id": 2,
+      "destinoId": 2,
+      "usuario": "Carlos",
+      "comentario": "Muito contato com a natureza, valeu cada segundo.",
+      "nota": 4
+    },
+    {
+      "id": 3,
+      "destinoId": 3,
+      "usuario": "Juliana",
+      "comentario": "Visual incrível e excelente gastronomia local!",
+      "nota": 5
+    }
+  ]
+}
